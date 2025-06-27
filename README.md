@@ -17,7 +17,7 @@ The deployment process:
 
 1. Builds the production version using `npm run build`
 2. Deploys the contents of the `dist` folder to GitHub Pages
-3. The site will be available at: `https://[your-username].github.io/zapperment-rocks/`
+3. The site will be available at: `https://zapperment.github.io/`
 
 ### Manual Deployment
 
