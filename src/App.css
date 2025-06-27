@@ -82,12 +82,16 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 600px) {
   #root {
-    padding: 1rem;
+    padding: 0;
+  }
+  h1 {
+    font-size: 2rem;
   }
   .logo {
     max-width: 90vw;
+    width: auto;
     height: auto;
   }
   .audio-player {
