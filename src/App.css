@@ -23,6 +23,10 @@
   border-radius: 12px;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 500px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .audio-player h2 {
@@ -75,5 +79,28 @@
 
   .audio-player p {
     color: #4a5568;
+  }
+}
+
+@media (max-width: 600px) {
+  #root {
+    padding: 1rem;
+  }
+  .logo {
+    max-width: 90vw;
+    height: auto;
+  }
+  .audio-player {
+    max-width: 100%;
+    padding: 0 0.5rem 1rem 0.5rem;
+  }
+  .audio-player audio {
+    max-width: 100%;
+  }
+  .audio-player h2 {
+    font-size: 1.1rem;
+  }
+  .audio-player p {
+    font-size: 0.95rem;
   }
 }
