@@ -12,7 +12,7 @@ function App() {
       
       <div className="audio-player">
         <h2>Ten Pounds Lost in Ten Minutes</h2>
-        <p>Version 1, 26 Jun 2025</p>
+        <p>Version 2, 26 Jun 2025</p>
         <audio controls>
           <source src="./audio/zapperment.rocks - Ten Pounds Lost in Ten Minutes.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
