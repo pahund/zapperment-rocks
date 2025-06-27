@@ -58,3 +58,22 @@
 .audio-player audio::-webkit-media-controls-play-button:hover {
   background-color: #535bf2;
 }
+
+@media (prefers-color-scheme: light) {
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #6b7280);
+  }
+
+  .audio-player {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .audio-player h2 {
+    color: #213547;
+  }
+
+  .audio-player p {
+    color: #4a5568;
+  }
+}
